@@ -71,12 +71,28 @@ body {
   background: url('../images/green-earth-initiative-hero-image.png') center/cover no-repeat;
   color: var(--white);
   text-align: center;
-  padding: 5rem 1rem;
+  padding: 5rem 2rem;
 }
 .hero-content {
   background-color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   padding: 1.5rem 2rem;
+  border-radius: var(--radius);
+}
+
+/* CSS for About */
+.section-container {
+  /* background: url('../images/green-earth-initiative-logo-orgiginal-no-bg.png') center/cover no-repeat; */
+  color: var(--white);
+  /* width: 50%;*/
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.about-content {
+  background-color: rgba(29, 28, 28, 0.7);
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  text-align: center;
   border-radius: var(--radius);
 }
 
@@ -91,6 +107,8 @@ body {
 h2 {
   color: var(--green);
 }
+
+
 
 /* CSS for Footer */
 .footer {
