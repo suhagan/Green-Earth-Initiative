@@ -66,6 +66,14 @@ body {
   text-decoration: underline;
 }
 
+/* CSS for Footer */
+.footer {
+  background: var(--green);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
 
 /* CSS for Responsiveness */
 @media (max-width: 700px) {
