@@ -42,8 +42,36 @@
         <section id="about" class="section-container">
             <div class="about-content">
                 <h2>About Us</h2>
-                <p>GreenEarth Initiative promotes sustainable living through education, clean-up campaigns, and eco-friendly projects. Our goal is to empower individuals and communities to protect our planet.</p>
+                <p id="about-p" class="about-para">GreenEarth Initiative promotes sustainable living through education, clean-up campaigns, and eco-friendly projects. Our goal is to empower individuals and communities to protect our planet.</p>
             </div>
+        </section>
+
+        <!-- EVENTS Section-->
+        <section id="events" class="section-container">
+            <div id="events-content" class="event-list">
+                <h2>Upcoming Events</h2>
+                <div id="up-c-events" class="up-event-list">
+                    <ul>
+                        <li>15 October, 2025: <strong> Tree Planting Day </strong> - at Kungsträgården, Stockholm City</li>
+                        <li>05 November, 2025: <strong> Recycling Workshop</strong> - at Stockholm University, Stockholm</li>
+                        <li>01 December to 07 December, 2025: <strong> Bike to Work Week</strong> — at Uppsala University, Uppsala</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- TO-DO: MY GREEN GOALS -->
+        <section id="goals" class="section-container">
+            <div id="todo" class="green-goals">
+                <h2>My Green Goals</h2>
+                <form id="todoForm">
+                    <label for="todoInput">Add a personal eco-goal:</label>
+                    <input type="text" id="todoInput" placeholder="Example: Use reusable bags" required />
+                    <button type="submit">Add Goal</button>
+                </form>
+                <ul id="todoList" aria-live="polite"></ul>
+                <button id="clearTodos">Clear All Goals</button>
+            </div>    
         </section>
     </main>
 
