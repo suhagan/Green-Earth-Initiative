@@ -10,7 +10,8 @@
 
 body {
   margin: 0;
-  background: var(--white);
+  /* background: var(--white); */
+  background: url('../images/green-earth-initiative-hero-image.png') center/cover no-repeat;
   color: var(--gray);
   line-height: 1.6;
 }
@@ -68,7 +69,7 @@ body {
 
 /* CSS for Hero Image */
 .hero {
-  background: url('../images/green-earth-initiative-hero-image.png') center/cover no-repeat;
+  /* background: url('../images/green-earth-initiative-hero-image.png') center/cover no-repeat; */
   color: var(--white);
   text-align: center;
   padding: 5rem 2rem;
@@ -89,13 +90,31 @@ body {
   padding: 5rem 2rem;
 }
 .about-content {
-  background-color: rgba(29, 28, 28, 0.7);
+  /* background-color: rgba(29, 28, 28, 0.7); */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  
+  border-radius: var(--radius);
+}
+.about-para {
+    font-size: large;
+    padding: 5rem 2rem;
+}
+
+/* CSS for Events section */
+
+.event-list {
+  background-color: rgba(0, 0, 0, 0.5);
   display: inline-block;
   padding: 1.5rem 2rem;
   text-align: center;
   border-radius: var(--radius);
 }
-
+.up-event-list{
+    text-align: justify;
+}
 /* CSS for Sections */
 .section {
   padding: 2rem 1rem;
@@ -108,6 +127,59 @@ h2 {
   color: var(--green);
 }
 
+/* CSS for To-do list: My Green Goals */
+.green-goals {
+  /* background-color: rgba(29, 28, 28, 0.7); */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  
+  border-radius: var(--radius);
+}
+
+#todoList {
+  list-style: none;
+  padding: 0;
+}
+#todoList li {
+  background: var(--lightgreen);
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background: var(--green);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+button:hover {
+  background: #26734d;
+}
+
+/* CSS for Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 500px;
+}
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
 
 
 /* CSS for Footer */
