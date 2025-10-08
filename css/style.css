@@ -164,8 +164,8 @@ button:hover {
 
 /* CSS for Forms */
 form {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   gap: 0.75rem;
   max-width: 500px;
 }
