@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // simulate send (assignment doesn't require backend)
-    formStatus.textContent = "✅ Thank you — your message has been recorded.";
+    formStatus.textContent = "Thank you — your message has been recorded.";
     contactForm.reset();
   });
 
